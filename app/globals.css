@@ -6,3 +6,23 @@ html,
 body {
   height: 100%;
 }
+
+/* 新しく訪問済みになった地域だけに付与する、控えめな「ポンッ」アニメーション。
+   派手な演出は避け、少し弾んで元のサイズに戻る程度に留めている。 */
+@keyframes region-pop {
+  0% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.12);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.region-pop {
+  animation: region-pop 0.45s ease-out;
+  transform-box: fill-box;
+  transform-origin: center;
+}

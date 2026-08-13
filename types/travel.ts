@@ -34,10 +34,14 @@ export interface RegionRecord {
 }
 
 // アプリ全体で保持するストア
+// v2からは Repository 内部で `${mode}:${regionCode}` をキーとして保存し、
+// 国内／海外で地域コードが衝突しないようにしている（lib/regionKey.ts）
 export interface TravelLogStore {
   version: number; // マイグレーション用
-  regions: Record<string, RegionRecord>; // key = regionCode
+  regions: Record<string, RegionRecord>; // key = `${mode}:${regionCode}`
 }
+
+export const CURRENT_STORE_VERSION = 2;
 
 // 地図表示用の集計データ
 export interface RegionStats {

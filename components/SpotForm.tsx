@@ -22,32 +22,40 @@ const PRICE_OPTIONS: Record<AppMode, { value: PriceRange; label: string }[]> = {
 export default function SpotForm({
   mode,
   category,
+  existingVisitDates,
+  initialSpot,
   onCancel,
   onSubmit,
 }: {
   mode: AppMode;
   category: SpotCategory;
+  // 地域にすでに登録されている訪問日。クイック選択チップとして表示する
+  existingVisitDates: string[];
+  // 指定時は編集モード（初期値をフォームに読み込み、同じIDで更新する）
+  initialSpot?: Spot;
   onCancel: () => void;
   onSubmit: (spot: Spot) => void;
 }) {
-  const [name, setName] = useState("");
-  const [visitDate, setVisitDate] = useState("");
-  const [googleMapUrl, setGoogleMapUrl] = useState("");
-  const [memo, setMemo] = useState("");
-  const [priceRange, setPriceRange] = useState<PriceRange | "">("");
+  const isEditing = !!initialSpot;
+
+  const [name, setName] = useState(initialSpot?.name ?? "");
+  const [visitDate, setVisitDate] = useState(initialSpot?.visitDate ?? "");
+  const [googleMapUrl, setGoogleMapUrl] = useState(initialSpot?.googleMapUrl ?? "");
+  const [memo, setMemo] = useState(initialSpot?.memo ?? "");
+  const [priceRange, setPriceRange] = useState<PriceRange | "">(initialSpot?.priceRange ?? "");
 
   const handleSubmit = () => {
     if (!name || !visitDate) return;
     const now = new Date().toISOString();
     onSubmit({
-      id: crypto.randomUUID(),
+      id: initialSpot?.id ?? crypto.randomUUID(),
       category,
       visitDate,
       name,
       googleMapUrl: googleMapUrl || undefined,
       memo: memo || undefined,
       priceRange: priceRange || undefined,
-      createdAt: now,
+      createdAt: initialSpot?.createdAt ?? now,
       updatedAt: now,
     });
   };
@@ -56,19 +64,40 @@ export default function SpotForm({
     <div className="fixed inset-0 z-[60] flex items-end justify-center bg-black/50 sm:items-center">
       <div className="max-h-[90vh] w-full max-w-md overflow-y-auto rounded-t-2xl bg-white p-5 sm:rounded-2xl">
         <div className="mb-4 flex items-center justify-between">
-          <h3 className="text-base font-bold">スポットを追加</h3>
+          <h3 className="text-base font-bold">{isEditing ? "スポットを編集" : "スポットを追加"}</h3>
           <button onClick={onCancel}>
             <X size={18} />
           </button>
         </div>
 
         <div className="space-y-3">
-          <input
-            type="date"
-            value={visitDate}
-            onChange={(e) => setVisitDate(e.target.value)}
-            className="w-full rounded-lg border px-3 py-2 text-sm"
-          />
+          <div>
+            <input
+              type="date"
+              value={visitDate}
+              onChange={(e) => setVisitDate(e.target.value)}
+              className="w-full rounded-lg border px-3 py-2 text-sm"
+            />
+            {existingVisitDates.length > 0 && (
+              <div className="mt-1.5 flex flex-wrap gap-1.5">
+                {existingVisitDates.map((d) => (
+                  <button
+                    key={d}
+                    type="button"
+                    onClick={() => setVisitDate(d)}
+                    className={`rounded-full px-2.5 py-0.5 text-xs ${
+                      visitDate === d
+                        ? "bg-orange-500 text-white"
+                        : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                    }`}
+                  >
+                    {d}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
           <input
             type="text"
             placeholder="スポット名 / 店名"
@@ -114,7 +143,7 @@ export default function SpotForm({
             disabled={!name || !visitDate}
             className="flex-1 rounded-lg bg-orange-500 py-2 text-sm text-white disabled:opacity-40"
           >
-            追加
+            {isEditing ? "更新" : "追加"}
           </button>
         </div>
       </div>

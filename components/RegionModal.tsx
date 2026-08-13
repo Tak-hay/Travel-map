@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { X, Plus, Trash2, ExternalLink } from "lucide-react";
+import { X, Plus, Trash2, ExternalLink, Pencil } from "lucide-react";
 import { AppMode, RegionRecord, Spot, SpotCategory } from "@/types/travel";
 import { travelLogRepository } from "@/lib/repository/travelLogRepository";
 import SpotForm from "./SpotForm";
@@ -12,6 +12,17 @@ const TABS: { key: SpotCategory; label: string }[] = [
   { key: "shopping", label: "買い物" },
   { key: "lodging", label: "宿泊" },
 ];
+
+const PRICE_LABELS: Record<string, string> = {
+  under1000: "1,000円以下",
+  under5000: "5,000円以下",
+  under10000: "10,000円以下",
+  over10000: "10,000円以上",
+  under10: "~$10",
+  under50: "~$50",
+  under100: "~$100",
+  over100: "$100+",
+};
 
 export default function RegionModal({
   mode,
@@ -30,9 +41,11 @@ export default function RegionModal({
   const [newDate, setNewDate] = useState("");
   const [activeTab, setActiveTab] = useState<SpotCategory>("food");
   const [showSpotForm, setShowSpotForm] = useState(false);
+  const [editingSpot, setEditingSpot] = useState<Spot | null>(null);
+  const [confirmDeleteId, setConfirmDeleteId] = useState<string | null>(null);
 
   useEffect(() => {
-    travelLogRepository.getRegion(regionCode).then((r) => {
+    travelLogRepository.getRegion(mode, regionCode).then((r) => {
       setRecord(
         r ?? {
           regionCode,
@@ -69,12 +82,36 @@ export default function RegionModal({
   const removeSpot = (spotId: string) => {
     if (!record) return;
     save({ ...record, spots: record.spots.filter((s) => s.id !== spotId) });
+    setConfirmDeleteId(null);
   };
 
-  const addSpot = (spot: Spot) => {
+  // スポットの追加・編集を1つの経路にまとめる。
+  // スポットの訪問日が地域側にまだ登録されていない場合は自動的に追加し、
+  // 「地域の訪問日」と「スポットの訪問日」の不整合を防ぐ。
+  const saveSpot = (spot: Spot) => {
     if (!record) return;
-    save({ ...record, spots: [...record.spots, spot] });
+    const exists = record.spots.some((s) => s.id === spot.id);
+    const spots = exists
+      ? record.spots.map((s) => (s.id === spot.id ? spot : s))
+      : [...record.spots, spot];
+
+    const visitDates = record.visitDates.includes(spot.visitDate)
+      ? record.visitDates
+      : [...record.visitDates, spot.visitDate].sort();
+
+    save({ ...record, spots, visitDates });
     setShowSpotForm(false);
+    setEditingSpot(null);
+  };
+
+  const openAddForm = () => {
+    setEditingSpot(null);
+    setShowSpotForm(true);
+  };
+
+  const openEditForm = (spot: Spot) => {
+    setEditingSpot(spot);
+    setShowSpotForm(true);
   };
 
   if (!record) return null;
@@ -154,13 +191,42 @@ export default function RegionModal({
                       <p className="font-medium text-slate-900">{spot.name}</p>
                       <p className="text-xs text-slate-500">{spot.visitDate}</p>
                     </div>
-                    <button
-                      onClick={() => removeSpot(spot.id)}
-                      className="text-slate-400 hover:text-red-500"
-                    >
-                      <Trash2 size={16} />
-                    </button>
+                    <div className="flex items-center gap-2">
+                      <button
+                        onClick={() => openEditForm(spot)}
+                        className="text-slate-400 hover:text-orange-500"
+                      >
+                        <Pencil size={16} />
+                      </button>
+                      <button
+                        onClick={() => setConfirmDeleteId(spot.id)}
+                        className="text-slate-400 hover:text-red-500"
+                      >
+                        <Trash2 size={16} />
+                      </button>
+                    </div>
                   </div>
+
+                  {confirmDeleteId === spot.id && (
+                    <div className="mt-2 flex items-center justify-between rounded-md bg-red-50 px-3 py-2 text-xs text-red-700">
+                      <span>このスポットを削除しますか？</span>
+                      <div className="flex gap-2">
+                        <button
+                          onClick={() => setConfirmDeleteId(null)}
+                          className="rounded-md border border-red-200 px-2 py-1"
+                        >
+                          キャンセル
+                        </button>
+                        <button
+                          onClick={() => removeSpot(spot.id)}
+                          className="rounded-md bg-red-500 px-2 py-1 text-white"
+                        >
+                          削除する
+                        </button>
+                      </div>
+                    </div>
+                  )}
+
                   {spot.memo && <p className="mt-2 text-sm text-slate-600">{spot.memo}</p>}
                   <div className="mt-2 flex items-center gap-3 text-xs">
                     {spot.googleMapUrl && (
@@ -175,7 +241,7 @@ export default function RegionModal({
                     )}
                     {spot.priceRange && (
                       <span className="rounded bg-slate-100 px-2 py-0.5 text-slate-600">
-                        {spot.priceRange}
+                        {PRICE_LABELS[spot.priceRange] ?? spot.priceRange}
                       </span>
                     )}
                   </div>
@@ -183,7 +249,7 @@ export default function RegionModal({
               ))}
 
               <button
-                onClick={() => setShowSpotForm(true)}
+                onClick={openAddForm}
                 className="flex w-full items-center justify-center gap-1 rounded-lg border border-dashed py-2 text-sm text-slate-500 hover:border-orange-400 hover:text-orange-500"
               >
                 <Plus size={14} /> スポットを追加
@@ -196,8 +262,13 @@ export default function RegionModal({
           <SpotForm
             mode={mode}
             category={activeTab}
-            onCancel={() => setShowSpotForm(false)}
-            onSubmit={addSpot}
+            existingVisitDates={record.visitDates}
+            initialSpot={editingSpot ?? undefined}
+            onCancel={() => {
+              setShowSpotForm(false);
+              setEditingSpot(null);
+            }}
+            onSubmit={saveSpot}
           />
         )}
       </div>
