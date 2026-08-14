@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "FJ",
+        "code": "FJI",
         "name": "Fiji"
       },
       "geometry": {
@@ -116,8 +116,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "TZ",
-        "name": "United Republic of Tanzania"
+        "code": "TZA",
+        "name": "Tanzania"
       },
       "geometry": {
         "type": "Polygon",
@@ -338,8 +338,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "EH",
-        "name": "Western Sahara"
+        "code": "SAH",
+        "name": "W. Sahara"
       },
       "geometry": {
         "type": "Polygon",
@@ -464,7 +464,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CA",
+        "code": "CAN",
         "name": "Canada"
       },
       "geometry": {
@@ -3772,7 +3772,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "US",
+        "code": "USA",
         "name": "United States of America"
       },
       "geometry": {
@@ -5612,7 +5612,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "KZ",
+        "code": "KAZ",
         "name": "Kazakhstan"
       },
       "geometry": {
@@ -6074,7 +6074,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "UZ",
+        "code": "UZB",
         "name": "Uzbekistan"
       },
       "geometry": {
@@ -6304,7 +6304,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "PG",
+        "code": "PNG",
         "name": "Papua New Guinea"
       },
       "geometry": {
@@ -6656,7 +6656,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "ID",
+        "code": "IDN",
         "name": "Indonesia"
       },
       "geometry": {
@@ -7720,7 +7720,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "AR",
+        "code": "ARG",
         "name": "Argentina"
       },
       "geometry": {
@@ -8224,7 +8224,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CL",
+        "code": "CHL",
         "name": "Chile"
       },
       "geometry": {
@@ -8700,8 +8700,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CD",
-        "name": "Democratic Republic of the Congo"
+        "code": "COD",
+        "name": "Dem. Rep. Congo"
       },
       "geometry": {
         "type": "Polygon",
@@ -9210,7 +9210,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "SO",
+        "code": "SOM",
         "name": "Somalia"
       },
       "geometry": {
@@ -9372,7 +9372,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "KE",
+        "code": "KEN",
         "name": "Kenya"
       },
       "geometry": {
@@ -9534,7 +9534,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "SD",
+        "code": "SDN",
         "name": "Sudan"
       },
       "geometry": {
@@ -9872,7 +9872,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "TD",
+        "code": "TCD",
         "name": "Chad"
       },
       "geometry": {
@@ -10118,7 +10118,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "HT",
+        "code": "HTI",
         "name": "Haiti"
       },
       "geometry": {
@@ -10216,8 +10216,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "DO",
-        "name": "Dominican Republic"
+        "code": "DOM",
+        "name": "Dominican Rep."
       },
       "geometry": {
         "type": "Polygon",
@@ -10334,7 +10334,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "RU",
+        "code": "RUS",
         "name": "Russia"
       },
       "geometry": {
@@ -12902,8 +12902,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BS",
-        "name": "The Bahamas"
+        "code": "BHS",
+        "name": "Bahamas"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13010,8 +13010,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "FK",
-        "name": "Falkland Islands"
+        "code": "FLK",
+        "name": "Falkland Is."
       },
       "geometry": {
         "type": "Polygon",
@@ -13064,7 +13064,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "-99",
+        "code": "NOR",
         "name": "Norway"
       },
       "geometry": {
@@ -13444,7 +13444,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "GL",
+        "code": "GRL",
         "name": "Greenland"
       },
       "geometry": {
@@ -13986,8 +13986,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "TF",
-        "name": "French Southern and Antarctic Lands"
+        "code": "ATF",
+        "name": "Fr. S. Antarctic Lands"
       },
       "geometry": {
         "type": "Polygon",
@@ -14036,8 +14036,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "TL",
-        "name": "East Timor"
+        "code": "TLS",
+        "name": "Timor-Leste"
       },
       "geometry": {
         "type": "Polygon",
@@ -14094,7 +14094,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "ZA",
+        "code": "ZAF",
         "name": "South Africa"
       },
       "geometry": {
@@ -14486,7 +14486,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "LS",
+        "code": "LSO",
         "name": "Lesotho"
       },
       "geometry": {
@@ -14548,7 +14548,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "MX",
+        "code": "MEX",
         "name": "Mexico"
       },
       "geometry": {
@@ -15242,7 +15242,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "UY",
+        "code": "URY",
         "name": "Uruguay"
       },
       "geometry": {
@@ -15340,7 +15340,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BR",
+        "code": "BRA",
         "name": "Brazil"
       },
       "geometry": {
@@ -16166,7 +16166,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BO",
+        "code": "BOL",
         "name": "Bolivia"
       },
       "geometry": {
@@ -16420,7 +16420,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "PE",
+        "code": "PER",
         "name": "Peru"
       },
       "geometry": {
@@ -16738,7 +16738,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CO",
+        "code": "COL",
         "name": "Colombia"
       },
       "geometry": {
@@ -17152,7 +17152,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "PA",
+        "code": "PAN",
         "name": "Panama"
       },
       "geometry": {
@@ -17374,7 +17374,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CR",
+        "code": "CRI",
         "name": "Costa Rica"
       },
       "geometry": {
@@ -17532,7 +17532,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "NI",
+        "code": "NIC",
         "name": "Nicaragua"
       },
       "geometry": {
@@ -17754,7 +17754,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "HN",
+        "code": "HND",
         "name": "Honduras"
       },
       "geometry": {
@@ -17996,7 +17996,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "SV",
+        "code": "SLV",
         "name": "El Salvador"
       },
       "geometry": {
@@ -18090,7 +18090,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "GT",
+        "code": "GTM",
         "name": "Guatemala"
       },
       "geometry": {
@@ -18244,7 +18244,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BZ",
+        "code": "BLZ",
         "name": "Belize"
       },
       "geometry": {
@@ -18338,7 +18338,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "VE",
+        "code": "VEN",
         "name": "Venezuela"
       },
       "geometry": {
@@ -18720,7 +18720,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "GY",
+        "code": "GUY",
         "name": "Guyana"
       },
       "geometry": {
@@ -18894,7 +18894,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "SR",
+        "code": "SUR",
         "name": "Suriname"
       },
       "geometry": {
@@ -19012,7 +19012,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "-99",
+        "code": "FRA",
         "name": "France"
       },
       "geometry": {
@@ -19332,7 +19332,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "EC",
+        "code": "ECU",
         "name": "Ecuador"
       },
       "geometry": {
@@ -19478,7 +19478,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "PR",
+        "code": "PRI",
         "name": "Puerto Rico"
       },
       "geometry": {
@@ -19528,7 +19528,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "JM",
+        "code": "JAM",
         "name": "Jamaica"
       },
       "geometry": {
@@ -19586,7 +19586,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CU",
+        "code": "CUB",
         "name": "Cuba"
       },
       "geometry": {
@@ -19768,7 +19768,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "ZW",
+        "code": "ZWE",
         "name": "Zimbabwe"
       },
       "geometry": {
@@ -19930,7 +19930,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BW",
+        "code": "BWA",
         "name": "Botswana"
       },
       "geometry": {
@@ -20104,7 +20104,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "NA",
+        "code": "NAM",
         "name": "Namibia"
       },
       "geometry": {
@@ -20294,7 +20294,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "SN",
+        "code": "SEN",
         "name": "Senegal"
       },
       "geometry": {
@@ -20484,7 +20484,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "ML",
+        "code": "MLI",
         "name": "Mali"
       },
       "geometry": {
@@ -20802,7 +20802,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "MR",
+        "code": "MRT",
         "name": "Mauritania"
       },
       "geometry": {
@@ -20972,7 +20972,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BJ",
+        "code": "BEN",
         "name": "Benin"
       },
       "geometry": {
@@ -21086,7 +21086,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "NE",
+        "code": "NER",
         "name": "Niger"
       },
       "geometry": {
@@ -21332,7 +21332,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "NG",
+        "code": "NGA",
         "name": "Nigeria"
       },
       "geometry": {
@@ -21578,7 +21578,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CM",
+        "code": "CMR",
         "name": "Cameroon"
       },
       "geometry": {
@@ -21836,7 +21836,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "TG",
+        "code": "TGO",
         "name": "Togo"
       },
       "geometry": {
@@ -21926,7 +21926,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "GH",
+        "code": "GHA",
         "name": "Ghana"
       },
       "geometry": {
@@ -22040,8 +22040,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CI",
-        "name": "Ivory Coast"
+        "code": "CIV",
+        "name": "Côte d'Ivoire"
       },
       "geometry": {
         "type": "Polygon",
@@ -22238,7 +22238,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "GN",
+        "code": "GIN",
         "name": "Guinea"
       },
       "geometry": {
@@ -22532,7 +22532,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "GW",
+        "code": "GNB",
         "name": "Guinea-Bissau"
       },
       "geometry": {
@@ -22622,7 +22622,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "LR",
+        "code": "LBR",
         "name": "Liberia"
       },
       "geometry": {
@@ -22744,7 +22744,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "SL",
+        "code": "SLE",
         "name": "Sierra Leone"
       },
       "geometry": {
@@ -22846,7 +22846,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BF",
+        "code": "BFA",
         "name": "Burkina Faso"
       },
       "geometry": {
@@ -23016,8 +23016,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CF",
-        "name": "Central African Republic"
+        "code": "CAF",
+        "name": "Central African Rep."
       },
       "geometry": {
         "type": "Polygon",
@@ -23278,8 +23278,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CG",
-        "name": "Republic of the Congo"
+        "code": "COG",
+        "name": "Congo"
       },
       "geometry": {
         "type": "Polygon",
@@ -23488,7 +23488,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "GA",
+        "code": "GAB",
         "name": "Gabon"
       },
       "geometry": {
@@ -23626,8 +23626,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "GQ",
-        "name": "Equatorial Guinea"
+        "code": "GNQ",
+        "name": "Eq. Guinea"
       },
       "geometry": {
         "type": "Polygon",
@@ -23668,7 +23668,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "ZM",
+        "code": "ZMB",
         "name": "Zambia"
       },
       "geometry": {
@@ -23926,7 +23926,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "MW",
+        "code": "MWI",
         "name": "Malawi"
       },
       "geometry": {
@@ -24052,7 +24052,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "MZ",
+        "code": "MOZ",
         "name": "Mozambique"
       },
       "geometry": {
@@ -24382,7 +24382,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "SZ",
+        "code": "SWZ",
         "name": "eSwatini"
       },
       "geometry": {
@@ -24440,7 +24440,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "AO",
+        "code": "AGO",
         "name": "Angola"
       },
       "geometry": {
@@ -24760,7 +24760,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BI",
+        "code": "BDI",
         "name": "Burundi"
       },
       "geometry": {
@@ -24826,7 +24826,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "IL",
+        "code": "ISR",
         "name": "Israel"
       },
       "geometry": {
@@ -24944,7 +24944,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "LB",
+        "code": "LBN",
         "name": "Lebanon"
       },
       "geometry": {
@@ -25002,7 +25002,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "MG",
+        "code": "MDG",
         "name": "Madagascar"
       },
       "geometry": {
@@ -25212,7 +25212,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "PS",
+        "code": "PSX",
         "name": "Palestine"
       },
       "geometry": {
@@ -25262,7 +25262,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "GM",
+        "code": "GMB",
         "name": "Gambia"
       },
       "geometry": {
@@ -25340,7 +25340,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "TN",
+        "code": "TUN",
         "name": "Tunisia"
       },
       "geometry": {
@@ -25478,7 +25478,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "DZ",
+        "code": "DZA",
         "name": "Algeria"
       },
       "geometry": {
@@ -25740,7 +25740,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "JO",
+        "code": "JOR",
         "name": "Jordan"
       },
       "geometry": {
@@ -25830,7 +25830,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "AE",
+        "code": "ARE",
         "name": "United Arab Emirates"
       },
       "geometry": {
@@ -25932,7 +25932,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "QA",
+        "code": "QAT",
         "name": "Qatar"
       },
       "geometry": {
@@ -25982,7 +25982,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "KW",
+        "code": "KWT",
         "name": "Kuwait"
       },
       "geometry": {
@@ -26032,7 +26032,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "IQ",
+        "code": "IRQ",
         "name": "Iraq"
       },
       "geometry": {
@@ -26166,7 +26166,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "OM",
+        "code": "OMN",
         "name": "Oman"
       },
       "geometry": {
@@ -26374,7 +26374,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "VU",
+        "code": "VUT",
         "name": "Vanuatu"
       },
       "geometry": {
@@ -26442,7 +26442,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "KH",
+        "code": "KHM",
         "name": "Cambodia"
       },
       "geometry": {
@@ -26524,7 +26524,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "TH",
+        "code": "THA",
         "name": "Thailand"
       },
       "geometry": {
@@ -26794,7 +26794,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "LA",
+        "code": "LAO",
         "name": "Laos"
       },
       "geometry": {
@@ -26956,7 +26956,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "MM",
+        "code": "MMR",
         "name": "Myanmar"
       },
       "geometry": {
@@ -27250,7 +27250,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "VN",
+        "code": "VNM",
         "name": "Vietnam"
       },
       "geometry": {
@@ -27440,7 +27440,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "KP",
+        "code": "PRK",
         "name": "North Korea"
       },
       "geometry": {
@@ -27652,7 +27652,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "KR",
+        "code": "KOR",
         "name": "South Korea"
       },
       "geometry": {
@@ -27742,7 +27742,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "MN",
+        "code": "MNG",
         "name": "Mongolia"
       },
       "geometry": {
@@ -28056,7 +28056,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "IN",
+        "code": "IND",
         "name": "India"
       },
       "geometry": {
@@ -28614,7 +28614,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BD",
+        "code": "BGD",
         "name": "Bangladesh"
       },
       "geometry": {
@@ -28772,7 +28772,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BT",
+        "code": "BTN",
         "name": "Bhutan"
       },
       "geometry": {
@@ -28838,7 +28838,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "NP",
+        "code": "NPL",
         "name": "Nepal"
       },
       "geometry": {
@@ -28944,7 +28944,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "PK",
+        "code": "PAK",
         "name": "Pakistan"
       },
       "geometry": {
@@ -29222,7 +29222,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "AF",
+        "code": "AFG",
         "name": "Afghanistan"
       },
       "geometry": {
@@ -29512,7 +29512,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "TJ",
+        "code": "TJK",
         "name": "Tajikistan"
       },
       "geometry": {
@@ -29690,7 +29690,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "KG",
+        "code": "KGZ",
         "name": "Kyrgyzstan"
       },
       "geometry": {
@@ -29844,7 +29844,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "TM",
+        "code": "TKM",
         "name": "Turkmenistan"
       },
       "geometry": {
@@ -30074,7 +30074,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "IR",
+        "code": "IRN",
         "name": "Iran"
       },
       "geometry": {
@@ -30392,7 +30392,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "SY",
+        "code": "SYR",
         "name": "Syria"
       },
       "geometry": {
@@ -30514,7 +30514,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "AM",
+        "code": "ARM",
         "name": "Armenia"
       },
       "geometry": {
@@ -30608,7 +30608,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "SE",
+        "code": "SWE",
         "name": "Sweden"
       },
       "geometry": {
@@ -30782,7 +30782,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BY",
+        "code": "BLR",
         "name": "Belarus"
       },
       "geometry": {
@@ -30976,7 +30976,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "UA",
+        "code": "UKR",
         "name": "Ukraine"
       },
       "geometry": {
@@ -31362,7 +31362,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "PL",
+        "code": "POL",
         "name": "Poland"
       },
       "geometry": {
@@ -31556,7 +31556,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "AT",
+        "code": "AUT",
         "name": "Austria"
       },
       "geometry": {
@@ -31718,7 +31718,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "HU",
+        "code": "HUN",
         "name": "Hungary"
       },
       "geometry": {
@@ -31860,7 +31860,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "MD",
+        "code": "MDA",
         "name": "Moldova"
       },
       "geometry": {
@@ -31982,7 +31982,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "RO",
+        "code": "ROU",
         "name": "Romania"
       },
       "geometry": {
@@ -32172,7 +32172,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "LT",
+        "code": "LTU",
         "name": "Lithuania"
       },
       "geometry": {
@@ -32262,7 +32262,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "LV",
+        "code": "LVA",
         "name": "Latvia"
       },
       "geometry": {
@@ -32364,7 +32364,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "EE",
+        "code": "EST",
         "name": "Estonia"
       },
       "geometry": {
@@ -32454,7 +32454,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "DE",
+        "code": "DEU",
         "name": "Germany"
       },
       "geometry": {
@@ -32700,7 +32700,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BG",
+        "code": "BGR",
         "name": "Bulgaria"
       },
       "geometry": {
@@ -32826,7 +32826,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "GR",
+        "code": "GRC",
         "name": "Greece"
       },
       "geometry": {
@@ -33062,7 +33062,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "TR",
+        "code": "TUR",
         "name": "Turkey"
       },
       "geometry": {
@@ -33354,7 +33354,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "AL",
+        "code": "ALB",
         "name": "Albania"
       },
       "geometry": {
@@ -33464,7 +33464,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "HR",
+        "code": "HRV",
         "name": "Croatia"
       },
       "geometry": {
@@ -33650,7 +33650,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CH",
+        "code": "CHE",
         "name": "Switzerland"
       },
       "geometry": {
@@ -33760,7 +33760,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "LU",
+        "code": "LUX",
         "name": "Luxembourg"
       },
       "geometry": {
@@ -33802,7 +33802,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BE",
+        "code": "BEL",
         "name": "Belgium"
       },
       "geometry": {
@@ -33884,7 +33884,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "NL",
+        "code": "NLD",
         "name": "Netherlands"
       },
       "geometry": {
@@ -33958,7 +33958,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "PT",
+        "code": "PRT",
         "name": "Portugal"
       },
       "geometry": {
@@ -34104,7 +34104,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "ES",
+        "code": "ESP",
         "name": "Spain"
       },
       "geometry": {
@@ -34322,7 +34322,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "IE",
+        "code": "IRL",
         "name": "Ireland"
       },
       "geometry": {
@@ -34388,7 +34388,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "NC",
+        "code": "NCL",
         "name": "New Caledonia"
       },
       "geometry": {
@@ -34454,8 +34454,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "SB",
-        "name": "Solomon Islands"
+        "code": "SLB",
+        "name": "Solomon Is."
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -34634,7 +34634,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "NZ",
+        "code": "NZL",
         "name": "New Zealand"
       },
       "geometry": {
@@ -34918,7 +34918,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "AU",
+        "code": "AUS",
         "name": "Australia"
       },
       "geometry": {
@@ -35902,7 +35902,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "LK",
+        "code": "LKA",
         "name": "Sri Lanka"
       },
       "geometry": {
@@ -35956,7 +35956,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CN",
+        "code": "CHN",
         "name": "China"
       },
       "geometry": {
@@ -36936,7 +36936,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CN-TW",
+        "code": "TWN",
         "name": "Taiwan"
       },
       "geometry": {
@@ -36986,7 +36986,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "IT",
+        "code": "ITA",
         "name": "Italy"
       },
       "geometry": {
@@ -37358,7 +37358,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "DK",
+        "code": "DNK",
         "name": "Denmark"
       },
       "geometry": {
@@ -37474,7 +37474,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "GB",
+        "code": "GBR",
         "name": "United Kingdom"
       },
       "geometry": {
@@ -37718,7 +37718,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "IS",
+        "code": "ISL",
         "name": "Iceland"
       },
       "geometry": {
@@ -37812,7 +37812,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "AZ",
+        "code": "AZE",
         "name": "Azerbaijan"
       },
       "geometry": {
@@ -38008,7 +38008,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "GE",
+        "code": "GEO",
         "name": "Georgia"
       },
       "geometry": {
@@ -38118,7 +38118,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "PH",
+        "code": "PHL",
         "name": "Philippines"
       },
       "geometry": {
@@ -38598,7 +38598,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "MY",
+        "code": "MYS",
         "name": "Malaysia"
       },
       "geometry": {
@@ -38866,7 +38866,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BN",
+        "code": "BRN",
         "name": "Brunei"
       },
       "geometry": {
@@ -38912,7 +38912,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "SI",
+        "code": "SVN",
         "name": "Slovenia"
       },
       "geometry": {
@@ -38998,7 +38998,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "FI",
+        "code": "FIN",
         "name": "Finland"
       },
       "geometry": {
@@ -39172,7 +39172,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "SK",
+        "code": "SVK",
         "name": "Slovakia"
       },
       "geometry": {
@@ -39318,7 +39318,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CZ",
+        "code": "CZE",
         "name": "Czechia"
       },
       "geometry": {
@@ -39472,7 +39472,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "ER",
+        "code": "ERI",
         "name": "Eritrea"
       },
       "geometry": {
@@ -39598,7 +39598,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "JP",
+        "code": "JPN",
         "name": "Japan"
       },
       "geometry": {
@@ -39882,7 +39882,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "PY",
+        "code": "PRY",
         "name": "Paraguay"
       },
       "geometry": {
@@ -40028,7 +40028,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "YE",
+        "code": "YEM",
         "name": "Yemen"
       },
       "geometry": {
@@ -40218,7 +40218,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "SA",
+        "code": "SAU",
         "name": "Saudi Arabia"
       },
       "geometry": {
@@ -40536,7 +40536,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "AQ",
+        "code": "ATA",
         "name": "Antarctica"
       },
       "geometry": {
@@ -43224,8 +43224,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "-99",
-        "name": "Northern Cyprus"
+        "code": "CYN",
+        "name": "N. Cyprus"
       },
       "geometry": {
         "type": "Polygon",
@@ -43302,7 +43302,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "CY",
+        "code": "CYP",
         "name": "Cyprus"
       },
       "geometry": {
@@ -43376,7 +43376,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "MA",
+        "code": "MAR",
         "name": "Morocco"
       },
       "geometry": {
@@ -43642,7 +43642,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "EG",
+        "code": "EGY",
         "name": "Egypt"
       },
       "geometry": {
@@ -43832,7 +43832,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "LY",
+        "code": "LBY",
         "name": "Libya"
       },
       "geometry": {
@@ -44070,7 +44070,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "ET",
+        "code": "ETH",
         "name": "Ethiopia"
       },
       "geometry": {
@@ -44320,7 +44320,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "DJ",
+        "code": "DJI",
         "name": "Djibouti"
       },
       "geometry": {
@@ -44394,7 +44394,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "-99",
+        "code": "SOL",
         "name": "Somaliland"
       },
       "geometry": {
@@ -44512,7 +44512,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "UG",
+        "code": "UGA",
         "name": "Uganda"
       },
       "geometry": {
@@ -44638,7 +44638,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "RW",
+        "code": "RWA",
         "name": "Rwanda"
       },
       "geometry": {
@@ -44708,8 +44708,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "BA",
-        "name": "Bosnia and Herzegovina"
+        "code": "BIH",
+        "name": "Bosnia and Herz."
       },
       "geometry": {
         "type": "Polygon",
@@ -44814,7 +44814,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "MK",
+        "code": "MKD",
         "name": "North Macedonia"
       },
       "geometry": {
@@ -44900,8 +44900,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "RS",
-        "name": "Republic of Serbia"
+        "code": "SRB",
+        "name": "Serbia"
       },
       "geometry": {
         "type": "Polygon",
@@ -45106,7 +45106,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "ME",
+        "code": "MNE",
         "name": "Montenegro"
       },
       "geometry": {
@@ -45192,7 +45192,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "-99",
+        "code": "KOS",
         "name": "Kosovo"
       },
       "geometry": {
@@ -45290,7 +45290,7 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "TT",
+        "code": "TTO",
         "name": "Trinidad and Tobago"
       },
       "geometry": {
@@ -45336,8 +45336,8 @@
     {
       "type": "Feature",
       "properties": {
-        "code": "SS",
-        "name": "South Sudan"
+        "code": "SDS",
+        "name": "S. Sudan"
       },
       "geometry": {
         "type": "Polygon",
