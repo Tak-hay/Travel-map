@@ -98,4 +98,9 @@ Repository内部では、国内／海外で地域コードが衝突しないよ�
 
 ## ライセンス
 
+## データ出典
+
+- 日本地図データ: 地球地図日本 (国土地理院) / [dataofjapan/land](https://github.com/dataofjapan/land) を加工して使用
+- 世界地図データ: Natural Earth (Public Domain)
+
 MIT
